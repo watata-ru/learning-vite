@@ -17,6 +17,7 @@ h1 {
 }
 
 h2 {
+  text-shadow: 2px 2px salmon;
   color: #0accee;
   font-size: 30px;
   font-weight: bold;
@@ -175,5 +176,24 @@ ul {
       font-size: 14px;
       text-align: center;
     }
+  }
+}
+
+table {
+  width: 70%;
+  border: dashed 5px rgb(95, 13, 74);
+  border-collapse: collapse;
+  text-align: center;
+  th {
+    color: pink;
+    padding: 10px;
+    background-color: red;
+    border: dashed 5px rgb(95, 13, 74);
+  }
+  td {
+    color: blue;
+    padding: 20px;
+    background-color: green;
+    border: dashed 5px rgb(95, 13, 74);
   }
 }
