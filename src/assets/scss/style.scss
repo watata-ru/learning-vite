@@ -93,6 +93,48 @@ ul {
   }
 }
 
+.content2 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: white;
+  overflow: hidden;
+  p {
+    background: black;
+    color: white;
+    margin: 0;
+    position: absolute;
+    &.reverseTitle {
+      font-size: 8rem;
+      text-transform: capitalize;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      padding: 10px 20px;
+      padding-left: 100px;
+      top: 30px;
+      left: 0;
+    }
+    &.reverseSentence {
+      font-size: 4rem;
+      writing-mode: vertical-rl;
+      font-family: 'HiraMinProN-W6',serif;
+      letter-spacing: 1rem;
+      padding: 20px 10px;
+      position: absolute;
+      bottom: 0;
+      right: 60px;
+    }
+  }
+  .bg {
+    width: 60vw;
+    height: 40vh;
+    background-color: white;
+    mix-blend-mode: difference;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -120vh;
+  }
+}
+
 .content {
   margin-bottom: 100px;
   h2 ~ p {
