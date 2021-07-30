@@ -311,3 +311,68 @@ table {
       top: -100vh;
   }
 }
+
+.container2 {
+  width: 100%;
+  p {
+      font-size: 30px;
+      text-transform: capitalize;
+      letter-spacing: 5px;
+      word-spacing: 115px;
+      text-shadow: 2px 2px 8px blue;
+      border: double 10px red;
+      &:before {
+          content: "♥";
+          margin-right: 10px;
+      }
+      &:after {
+          content: "★";
+          margin-left: 10px;
+      }
+      &:hover {
+          cursor: help;
+      }
+  }
+  img {
+      width: 30%;
+      height: 30%;
+      filter: drop-shadow(2px 2px 8px red) blur(15px);
+      transition: 0.8s;
+      &:hover {
+          filter: brightness(150%);
+          transform: scale(1.1);
+          cursor: pointer;
+      }
+  }
+}
+
+.table {
+  margin: 100px 0;
+  border: solid 9px rgb(14, 235, 106);
+  border-collapse: collapse;
+  text-align: center;
+  th {
+      border: dotted 2px black;
+      padding: 20px;
+      color: rgb(15, 13, 13);
+      background-color: rgb(100, 204, 195);
+      width: 160px;
+  }
+  td {
+      border: dotted 2px black;
+  }
+  .yellow {
+      background-color: rgb(245, 228, 81);
+      width: 80px;
+  }
+  .blue {
+      background-color: blue;
+      width: 80px;
+  }
+  .purple {
+      background-color: purple;
+  }
+  .red {
+      background-color: red;
+  }
+}
