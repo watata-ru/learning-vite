@@ -239,3 +239,75 @@ table {
     border: dashed 5px rgb(95, 13, 74);
   }
 }
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: white;
+  overflow: hidden;
+  p {
+      background: black;
+      color: white;
+      margin: 0;
+      position: absolute;
+      &.en {
+          font-size: 8rem;
+          text-transform: capitalize;
+          font-family: impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          padding: 10px 20px;
+          padding-left: 100px;
+          top: 30px;
+      }
+      &.ja {
+          font-size: 4rem;
+          writing-mode: vertical-rl;
+          font-family: 'HiraMinProN-W6', serif;
+          letter-spacing: 1rem;
+          padding: 20px 10px;
+          position: absolute;
+          bottom: 0;
+          right: 60px;
+          span {
+              display: inline-block;
+              transform: rotateY(180deg);
+          }
+      }
+  }
+  .bg {
+      width: 40vw;
+      height: 400vh;
+      background-color: white;
+      mix-blend-mode: difference;
+      transform: rotate(45deg);
+      position: absolute;
+      top: -100vh;
+  }
+  .bg2 {
+      width: 40vw;
+      height: 400vh;
+      background-color: rgb(255, 0, 170);
+      mix-blend-mode: difference;
+      transform: rotate(60deg);
+      position: absolute;
+      top: -100vh;
+  }
+  .bg3 {
+      width: 40vw;
+      height: 400vh;
+      background-color:  rgb(19, 139, 175);
+      mix-blend-mode: difference;
+      transform: rotate(70deg);
+      position: absolute;
+      top: -100vh;
+  }
+  .bg4 {
+      width: 40vw;
+      height: 400vh;
+      background-color:  rgb(4, 79, 240);
+      mix-blend-mode: difference;
+      transform: rotate( 80deg);
+      position: absolute;
+      top: -100vh;
+  }
+}
