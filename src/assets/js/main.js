@@ -3,4 +3,5 @@ document.querySelector('#app').innerHTML = `
   <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
   <a href="/dir1/">Dir1</a>
   <a href="/dir2/">Dir2</a>
+  <a href="/dir3/">Dir3</a>
 `
